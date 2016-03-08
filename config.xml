@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
-	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
-	version 	= "1.0.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
 	<name>Mobil Siparis</name>
 
@@ -23,13 +24,9 @@
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
-  <preference name="phonegap-version" value="cli-5.2.0" /> 
   <preference name="fullscreen" value="true" />
-  <preference name="android-minSdkVersion" value="14" />
 
   <platform name="android" />
-
-
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
 </widget>
