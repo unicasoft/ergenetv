@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10" 
-        version     = "1.0.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+ <widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.phonegap.getting.started"
+	version 	= "1.0.0">
 
 	<name>Mobil Siparis</name>
 
@@ -24,15 +23,12 @@
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
-
-
   <platform name="android" />
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
-	
-	
-<plugin name="cordova-plugin-whitelist" version="1"/>
-<allow-navigation href="http://85.105.84.65:44/" />
-<access origin="http://85.105.84.65:44/" subdomains="true" />
+
+  <access origin="http://85.105.84.65:44/" subdomains="true" browserOnly="false"/>
+  
+  <preference name="fullscreen" value="true" />
 
 </widget>
