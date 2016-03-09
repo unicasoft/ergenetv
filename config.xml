@@ -29,4 +29,9 @@
   <platform name="android" />
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+	
+	
+<plugin name="cordova-plugin-whitelist" version="1"/>
+<allow-navigation href="http://85.105.84.65:44/" />	
+	
 </widget>
