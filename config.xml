@@ -25,13 +25,10 @@
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 
   <platform name="android" />
-	
   <preference name="autorotate" value="true" readonly="true"/>
-
-  <access origin="http://85.105.84.65:44/" subdomains="true" browserOnly="true"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
+  <allow-navigation href="http://85.105.84.65:44/" />
+  <preference name="fullscreen" value="true" />
+  <access origin="http://85.105.84.65:44/" subdomains="true" browserOnly="false"/>
   
-  <!-- <plugin name="cordova-plugin-whitelist" version="1"/> -->
-  <!-- <allow-navigation href="http://85.105.84.65:44/" />   -->
-  <!-- <preference name="fullscreen" value="true" /> -->
-
 </widget>
