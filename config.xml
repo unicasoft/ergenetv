@@ -30,9 +30,10 @@
 
   <access origin="http://85.105.84.65:44/" subdomains="true" browserOnly="false"/>
   
-  <plugin name="cordova-plugin-whitelist" version="1"/>
-  <allow-navigation href="http://85.105.84.65:44/" />  
+  <!-- <plugin name="cordova-plugin-whitelist" version="1"/> -->
+  <!-- <allow-navigation href="http://85.105.84.65:44/" />   -->
+
   
-  <preference name="fullscreen" value="true" />
+  <!-- <preference name="fullscreen" value="true" /> -->
 
 </widget>
