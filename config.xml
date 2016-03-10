@@ -32,9 +32,7 @@
   <plugin name="cordova-plugin-whitelist" version="1"/>
   
   <allow-navigation href="http://85.105.84.65:44/" />
-  <allow-navigation href="http://samples.raudus.com:88/21-Mobile" />
 
-  <access origin="http://85.105.84.65:44/" subdomains="true" browserOnly="false"/>
-  <access origin="http://samples.raudus.com:88/21-Mobile" subdomains="true" browserOnly="false"/>
-   
+  <access origin="http://85.105.84.65:44/" subdomains="true"/>
+
 </widget>
