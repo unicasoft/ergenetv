@@ -25,8 +25,17 @@
   <platform name="android" />
   <!-- <preference name="autorotate" value="true" readonly="true"/> -->
   <preference name="fullscreen" value="true" />  
-  <preference name="phonegap-version" value="cli-5.1.1" /> 
-  
+  <preference name="phonegap-version" value="cli-6.3.0" />
+  <preference name="orientation" value="landscape" />
+
+  <preference name="android-build-tool" value="ant|gradle" />
+  <preference name="android-minSdkVersion" value="10" />
+  <preference name="android-maxSdkVersion" value="15" />
+  <preference name="android-targetSdkVersion" value="12" />
+  <preference name="android-installLocation" value="auto" />
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+	
+	
   <plugin name="cordova-plugin-whitelist" version="1"/>
   
   <allow-navigation href="http://ergene.tv" />
