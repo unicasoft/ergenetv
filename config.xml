@@ -9,9 +9,8 @@
 	<description>
 	</description>
 
-	<author href="http://www.mikrotek.com.tr"
-		email="yazilim@mikrotek.com.tr">
-		Mikrotek Bilisim
+	<author href="http://ergene.tv"
+		email="veisozgur@bvteknoloji.com.tr">
 	</author>
 
 	<gap:platforms>
@@ -30,8 +29,8 @@
   
   <plugin name="cordova-plugin-whitelist" version="1"/>
   
-  <allow-navigation href="http://85.105.84.65:44/" />
+  <allow-navigation href="http://ergene.tv" />
 
-  <access origin="http://85.105.84.65:44/" subdomains="true"/>
+  <access origin="http://ergene.tv" subdomains="true"/>
 
 </widget>
